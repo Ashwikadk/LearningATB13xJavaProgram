@@ -5,8 +5,11 @@ public class Lab_195_Abstraction {
 Father f1=new Child();
 Child child=new Child();
 Car c=new Car();
+//Father f2=new  Father();//not possible because Father is abstract class
+   child.loan50k();
     }
 }
+
 abstract class Father{
 
     abstract void loan50k();//abstract method
