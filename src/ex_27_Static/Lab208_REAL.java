@@ -14,19 +14,20 @@ class ATB{
     public long getPhone(){
         return phone;
     }
-    public setPhone(long phone){
+    public long setPhone(long phone){
         this.phone=phone;
+        return phone;
     }
-    public getName()
+    public String getName()
     {
         return name;
     }
-    public seName(String name)
+    public String setName(String name)
     {
         this.name=name;
-
+return name;
     }
-    private String phone;
+    private long phone;
 
     static String courseName = "ATB13x";
     static String mentorName = "Pramod";
