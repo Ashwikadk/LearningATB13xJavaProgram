@@ -27,7 +27,7 @@ class ATB{
         this.name=name;
 return name;
     }
-    private long phone;
+
 
     static String courseName = "ATB13x";
     static String mentorName = "Pramod";
